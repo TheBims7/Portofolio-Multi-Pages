@@ -146,7 +146,7 @@ section {
     padding: 5rem 9% 5rem;
 }
 
-@media(max-width:450px){
+@media(max-width:500px){
     section {
         min-height: 140vh;
     }
@@ -271,17 +271,17 @@ span {
         content: "IoT Engineer";
     }
     81%, 100%{
-        content: "Aplication Developer";
+        content: "Application Developer";
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
     .home{
         gap: 5rem;
     }
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
     .home{
         flex-direction: column;
     }
@@ -302,7 +302,7 @@ span {
     .home-img img{
         width: 5cm;
         height: 6.5cm;
-        margin-top: 3cm;
+        margin-top: 2cm;
         margin-bottom: -0.5cm;
         border-radius: 5%;
     }
@@ -366,7 +366,7 @@ button:hover {
     cursor: pointer;
 }
 
-@media (max-width: 450px){
+@media (max-width: 600px){
     .about img{
         width: 200px;
         margin-top: 30px;
@@ -402,7 +402,7 @@ button:hover {
     text-align: center;
 }
 
-@media (max-width: 450px){
+@media (max-width: 600px){
     .title h2 {
         font-size: 40px;
         width: 420px;
@@ -477,7 +477,7 @@ h5 {
     margin-bottom: 25px;
 }
 
-@media (max-width: 450px){
+@media (max-width: 600px){
     .about .skills {
         margin: 15px 30px;
         font-size: 20px;
@@ -499,7 +499,7 @@ h5 {
     width: 300px;
 }
 
-@media (max-width: 450px){
+@media (max-width: 600px){
     .img {
         width: 250px;
     }
@@ -551,7 +551,7 @@ h5 {
     color: white;
 }
 
-@media (max-width: 450px){
+@media (max-width: 600px){
     .about .contact {
         margin: 15px 30px;
         font-size: 20px;
