@@ -310,9 +310,6 @@ span {
 
 .about {
     width: 100%;
-    justify-content: center;
-    align-items: center;
-    gap: 6rem;
     padding: 100px 0px;
     background-color: rgb(31, 29, 29);
 }
