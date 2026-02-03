@@ -27,7 +27,6 @@ body {
 }
 
 header {
-    margin-top: 20px;
     position: fixed;
     top: 0;
     left: 0;
@@ -35,10 +34,15 @@ header {
     padding: 1rem 9%;
     background-color: transparent;
     filter: drop-shadow(10px);
+    backdrop-filter: blur(50px);
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+}
+
+.header {
+  padding-top: 30px;
 }
 
 .logo {
@@ -295,10 +299,8 @@ span {
     }
 
     .home .home-content h1 span{
-        display: block;
         font-size: 4.1rem;
     }
-
 
     .home-img img{
         width: 5cm;
@@ -568,3 +570,13 @@ h5 {
         margin-top: 15px;
     }
 }
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #f10c0c;
+    border-radius: 10px;
+}
+
