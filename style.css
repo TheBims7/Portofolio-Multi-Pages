@@ -81,7 +81,7 @@ nav a:hover {
 }
 
 @media(max-width:800px){
-    header {
+    header.menu-active {
         margin-top: 40px;
     }
 
